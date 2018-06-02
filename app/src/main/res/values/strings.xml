@@ -15,5 +15,7 @@
     <string name="beginner">BEGINNER</string>
     <string name="advanced">ADVANCED</string>
     <string name="finish">FINISH</string>
+    <string name="todo">TODO</string>
+    <string name="final_text">Looking For A Men Beginner Near You...</string>
 
 </resources>
