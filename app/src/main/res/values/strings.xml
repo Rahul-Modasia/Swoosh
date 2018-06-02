@@ -17,5 +17,7 @@
     <string name="finish">FINISH</string>
     <string name="todo">TODO</string>
     <string name="final_text">Looking For A Men Beginner Near You...</string>
+    <string name="sorry_no_one_found">SORRY NO ONE FOUND!</string>
+    <string name="home">HOME</string>
 
 </resources>

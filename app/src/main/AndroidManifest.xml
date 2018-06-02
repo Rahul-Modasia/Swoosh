@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Controller.MainActivity"
-            android:screenOrientation="portrait">
+        <activity android:name=".Controller.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,16 +21,11 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity
-            android:name=".Controller.LeagueActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Controller.BaseActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Controller.SkillActivity"
-            android:screenOrientation="portrait" />
-        <activity android:name=".Controller.FinalActivity"></activity>
+        <activity android:name=".Controller.LeagueActivity" />
+        <activity android:name=".Controller.BaseActivity" />
+        <activity android:name=".Controller.SkillActivity" />
+        <activity android:name=".Controller.FinalActivity" />
+        <activity android:name=".Controller.LastActivity"></activity>
     </application>
 
 </manifest>

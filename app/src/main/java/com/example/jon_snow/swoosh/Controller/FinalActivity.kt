@@ -19,7 +19,7 @@ class FinalActivity : AppCompatActivity() {
         setContentView(R.layout.activity_final)
         player=intent.getParcelableExtra(PLAYER_EXTRA)
         lookingTxt.text="Looking For A ${player.league} ${player.skill} Near You..."
-        val begin = Intent(this,MainActivity::class.java)
+        val begin = Intent(this,LastActivity::class.java)
         val handler = Handler()
         handler.postDelayed({ startActivity(begin) }, 3000)
     }
